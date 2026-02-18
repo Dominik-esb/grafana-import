@@ -54,6 +54,17 @@ gio = Grafana(url="http://localhost:3000", credential=("admin", "admin"))
 outcome = gio.import_dashboard(dashboard)
 ```
 
+### Examples notice
+
+Example scripts are available in the `examples/` directory:
+
+- `examples/dashboard_import.py`
+- `examples/dashboard_export.py`
+
+They are intended for quick local testing and learning. Please review and
+adjust endpoint, credentials, and dashboard identifiers before using them in
+shared or production environments.
+
 ## Ad Hoc Usage
 
 You can use `grafana-import` in ad hoc mode without a configuration file.
